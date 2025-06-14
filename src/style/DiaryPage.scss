@@ -1,0 +1,45 @@
+$purple: #762EA6;
+.DiaryPage{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    padding: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgba(212, 164, 233, 0.6);
+    height: 600px;
+    #textarea{
+        color: $purple;
+        height: 300px;
+        width: 500px;
+        background: none;
+        border: 1px solid $purple;
+        font-size: 30px;
+    }
+    #opt{
+        text-align:right;
+        margin-right: 10px;
+        border: 1px solid $purple;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .Form{
+        margin-top: 60px;
+    }
+    button{
+        padding: 10px;
+        border: none;
+        font-size: 30px;
+        background-color: none;
+        background: none;
+        color: $purple;
+        cursor: pointer;
+    }
+    .none{
+        cursor: auto;
+        display: none;
+    }
+}

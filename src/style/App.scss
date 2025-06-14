@@ -1,0 +1,92 @@
+$pink: #F25CAF;
+$yellow: #F2E313;
+$green: #AFBF75;
+$purple: #762EA6;
+@font-face{
+    font-family: Magiel-Black;
+    src: url('./fonts/Magiel-Black.ttf'),
+         url('./fonts/Magiel-Black.otf');}    
+@font-face{
+    font-family: Spaceare;
+    src: url('./fonts/SPACEARE.TTF');}   
+@font-face{
+    font-family: Charming Smile DEMO;
+    src: url('./fonts/Charming Smile DEMO.otf');}
+@font-face{
+    font-family: actionis;
+    src: url('./fonts/actionis.ttf');} 
+
+.content {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+}
+.fancy{
+    font-family: Charming Smile DEMO;
+    text-align:left;
+}
+button{
+    cursor: pointer;
+}
+.back {
+    background-image: url('./images/stars2.webp');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+.head{
+    font-family: actionis;
+    font-size: 100px;
+    margin: 20px;
+    color: $pink;
+    text-shadow: 10px 6px $green;
+}
+
+.book{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: max-content;
+}
+
+.pod{
+    align-self: center;
+    justify-self: center;
+    padding: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgba(212, 164, 233, 0.6);
+    height: 600px;
+}
+
+.hello{
+    font-family: Charming Smile DEMO;
+    font-size: 50px;
+    color: $purple;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+    color: $purple;
+    .pole{
+        margin: 10px;
+        padding: 6px;
+        border-radius: 6px;
+        border: none;
+    }
+    button{
+        font-family: Charming Smile DEMO;
+        color: $green;
+        font-size: x-large;
+    }
+}

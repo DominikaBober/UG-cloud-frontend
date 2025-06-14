@@ -1,0 +1,25 @@
+$purple: #762EA6;
+@font-face{
+    font-family: Charming Smile DEMO;
+    src: url('./fonts/Charming Smile DEMO.otf');}
+.DiaryForm{
+    display: flex;
+    flex-direction: column;
+    .Form{
+        #textarea{
+            color: $purple;
+            height: 300px;
+            width: 500px;
+            background: none;
+            border: 1px solid $purple;
+            font-size: 30px;
+        }
+        #opt{
+            text-align:right;
+            margin-right: 10px;
+            border: 1px solid $purple;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+}
